@@ -2,24 +2,14 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
 import './hero.css'
 import img1 from '/img1.png'
+import img2 from '/img2.png'
 
-const Hero = () => {
+const Hero = ({isDarkTheme}) => {
 
-  //{' '}
-      // <span style={{ color: 'red' }}>
-      //   <Typewriter
-      //     words={['Developer', 'Designer', 'Freelancer']}
-      //     loop={true}
-      //     cursor
-      //     cursorStyle='|'
-      //     typeSpeed={70}
-      //     deleteSpeed={50}
-      //     delaySpeed={1000}
-      //   />
-      // </span>
+
   
   return (
-    <div class='hero' id='hero'>
+    <div class='hero'>
       <div class='hero-content'>
         <h1>hello there, I am Samuel Okolie</h1>
         <h2>I am  <span style={{color:'red'}}>{" "} 
@@ -44,7 +34,7 @@ const Hero = () => {
           </h2>
         
       </div>
-      <div class='hero-image'><img src={img1} alt="hero-image" className='hero-img' /></div>
+      <div class='hero-image'><img src={isDarkTheme ? img2 : img1} alt="hero-image" className='hero-img' /></div>
     </div>
   )
 }
