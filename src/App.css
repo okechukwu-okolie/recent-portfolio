@@ -1,5 +1,8 @@
 *{
-    font-family: Finlandica;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Finlandica, Roboto;
     background-color: #1E1E1E;
     color: white;
 
