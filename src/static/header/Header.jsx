@@ -8,7 +8,7 @@ import { CiDark } from 'react-icons/ci'
 import { Link } from 'react-router-dom'
 
 
-const Header = () => {
+const Header = ({theme}) => {
     const [light,setLight] = useState(false)
 
     const handleLight=()=>{
@@ -16,19 +16,24 @@ const Header = () => {
     
     }
 
+    theme(light)
+
   return (
     <div class='header'>
-      <div class='socials'><hr /><BsGithub size={20}/><BsLinkedin size={20}/><BsWhatsapp size={20}/></div>
+      <div class='socials'><hr class='vertical' /><BsGithub size={20}/><BsLinkedin size={20}/><BsWhatsapp size={20}/></div>
       <div class='logo'>samuel okolie</div>
-      <div class='navigation'>
-        <ul>
-          <Link to={'/'}><li>#home</li></Link>
-          <Link to={'/works'}><li>#works</li></Link>
-          <Link to={'/about-me'}><li>#about-me</li></Link>
-          <Link to={'/contacts'}><li>#contacts</li></Link>   
-        </ul>
+      <div class='header-right'>
+          <div class='navigation'>
+            <ul>
+              <Link to={'/'}><li>#home</li></Link>
+              <Link to={'/works'}><li>#works</li></Link>
+              <Link to={'/about-me'}><li>#about-me</li></Link>
+              <Link to={'/contacts'}><li>#contacts</li></Link>   
+            </ul> 
+          </div>
+        {light ? <CiDark onClick={handleLight} size={25}/> :<BiSun onClick={handleLight} size={25}/>}
+
       </div>
-     {light ? <CiDark onClick={handleLight}/> :<BiSun onClick={handleLight}/>}
     </div>
   )
 }

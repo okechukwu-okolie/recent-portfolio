@@ -19,7 +19,7 @@ const Hero = () => {
       // </span>
   
   return (
-    <div class='hero'>
+    <div class='hero' id='hero'>
       <div class='hero-content'>
         <h1>hello there, I am Samuel Okolie</h1>
         <h2>I am  <span style={{color:'red'}}>{" "} 

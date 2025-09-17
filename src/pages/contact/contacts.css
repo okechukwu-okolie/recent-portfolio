@@ -5,3 +5,26 @@
     margin: auto;
     width: 70%;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 90vh;
+    padding: 20px 0px;
+}
+.hero-content .hero-image{
+    flex: 1;
+}
+.hero-content h1{
+    font-size: 30px;
+    
+}
+
+.hero-img{
+width:75%;
+opacity:0.7;
+}
