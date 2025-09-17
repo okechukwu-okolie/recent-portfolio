@@ -2,10 +2,10 @@ import React,{useState} from 'react'
 import './header.css'
 import '../../../src/app.css'
 import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
-import { GiLightBulb } from 'react-icons/gi'
-import { LiaLightbulb } from 'react-icons/lia'
+
 import { BiSun } from 'react-icons/bi'
 import { CiDark } from 'react-icons/ci'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
       <div class='logo'>samuel okolie</div>
       <div class='navigation'>
         <ul>
-            <li>#home</li>
+            <Link ><li>#home</li></Link>
             <li>#works</li>
             <li>#about-me</li>
             <li>#contacts</li>
