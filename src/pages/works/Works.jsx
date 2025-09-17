@@ -56,9 +56,9 @@ const Works = () => {
           <Skill/>
           <Skill/>
           <Skill/>
+          {/* <Skill/>
           <Skill/>
-          <Skill/>
-          <Skill/>
+          <Skill/> */}
         </div>
       </div>
       

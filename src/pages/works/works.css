@@ -47,10 +47,15 @@ margin-top: 50px;
 }
 .work-skill{
     display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+}
+.work-skill img{
+    width: 400px;
 }
 .work-skill-component{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
