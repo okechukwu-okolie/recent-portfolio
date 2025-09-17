@@ -22,10 +22,10 @@ const Header = () => {
       <div class='logo'>samuel okolie</div>
       <div class='navigation'>
         <ul>
-            <Link ><li>#home</li></Link>
-            <li>#works</li>
-            <li>#about-me</li>
-            <li>#contacts</li>
+          <Link to={'/'}><li>#home</li></Link>
+          <Link to={'/works'}><li>#works</li></Link>
+          <Link to={'/about-me'}><li>#about-me</li></Link>
+          <Link to={'/contacts'}><li>#contacts</li></Link>   
         </ul>
       </div>
      {light ? <CiDark onClick={handleLight}/> :<BiSun onClick={handleLight}/>}
