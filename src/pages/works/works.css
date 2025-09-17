@@ -1,7 +1,56 @@
+
+
+
 .works{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: auto;
-    width: 70%;
+    width: 70%; 
+}
+.works-projects{
+     display:flex;
+     justify-content:space-between;
+      align-items:center;
+}
+
+
+.skills-section{
+margin-top: 50px;
+}
+.project-text{
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+
+    hr{
+        width:250px;
+        height: .1px;
+    }
+    .skills-line{
+        width:150px
+    }
+}
+
+.works-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    height: 35vh;
+    overflow: hidden;
+}
+.works-cards-open{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+.work-skill{
+    display: flex;
+}
+.work-skill-component{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
