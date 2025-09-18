@@ -25,10 +25,10 @@ const Header = ({theme}) => {
       <div class='header-right'>
           <div class='navigation'>
             <ul>
-              <Link to={'/'}><li>#home</li></Link>
-              <Link to={'/works'}><li>#works</li></Link>
-              <Link to={'/about-me'}><li>#about-me</li></Link>
-              <Link to={'/contacts'}><li>#contacts</li></Link>   
+              <li><a href="#home">#home</a></li>
+              <li><a href="#works">#works</a></li>
+              <li><a href="#about">#about-me</a></li>
+              <li><a href="#contacts">#contacts</a></li>
             </ul> 
           </div>
         {light ? <CiDark onClick={handleLight} size={25}/> :<BiSun onClick={handleLight} size={25}/>}

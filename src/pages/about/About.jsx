@@ -3,20 +3,18 @@ import './about.css'
 import { BsArrowRight } from 'react-icons/bs'
 import img5 from '/img5.png'
 import about1 from '/skill1.png'
+import FunFacts from '../../components/funFacts/FunFacts'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='works-projects'>
 
          <div className='project-text'>
-           <h3 >#about-me </h3>
+           <h3  >#about-me </h3>
           <hr />
          </div>
 
-         {/* <div onClick={openView}>
-          View All <BsArrowRight/>
-         </div> */}
 
       </div>
       <div className='about-contents'>
@@ -29,6 +27,24 @@ const About = () => {
 
               Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.
           </p>
+
+          <div className='works-projects'>
+
+         <div className='project-text'>
+           <h3 >#funfacts about me </h3>
+          <hr />
+         </div>
+
+
+      </div>
+
+          <div className='about-funfacts'>
+            <FunFacts/>
+          <FunFacts/>
+          <FunFacts/>
+          <FunFacts/>
+          <FunFacts/>
+          </div>
         </div>
         <div className='about-image'>
           <img src={img5} alt="" />

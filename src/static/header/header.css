@@ -9,6 +9,7 @@
     top: 0px;
     background-color: var(--bg-color);
     z-index: 5;
+    height: fit-content;
 }
 .socials{
     display: flex;

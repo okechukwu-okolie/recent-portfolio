@@ -12,7 +12,7 @@ const Hero = ({isDarkTheme}) => {
 
   
   return (
-    <div class='hero'>
+    <div class='hero' id='home'>
       <div class='hero-content'>
         {/* <img className='image-one' src={heroSkill1} alt="" />
         <img className='image-two' src={heroSkill2} alt="" /> */}

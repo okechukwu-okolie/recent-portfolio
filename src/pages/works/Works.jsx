@@ -14,7 +14,7 @@ const Works = () => {
     setView(!view)
   }
   return (
-    <div className='works' >
+    <div className='works' id='works' >
       <div className='works-projects'>
 
          <div className='project-text'>

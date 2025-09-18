@@ -4,6 +4,7 @@
 .works{
     margin: auto;
     width: 70%; 
+    padding-top: 80px;
 }
 .works-projects{
      display:flex;
