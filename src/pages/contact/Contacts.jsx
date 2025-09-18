@@ -18,17 +18,18 @@ const Contacts = () => {
       <div>
         <form action="">
          <div>
-           <div>
+           <div className='name-email'>
             <input type="text"
                   placeholder='input your name here' />
           <input type="email"
                   placeholder='input your email here' />
           </div>
-          <div>
+          <div className='title'>
             <input type="text"
                   placeholder='input message title here' />
+                  
           </div>
-          <div>
+          <div className='textarea'>
             <textarea name="" id="" rows={8} cols={20}></textarea>
           </div>
           <button>Send</button>

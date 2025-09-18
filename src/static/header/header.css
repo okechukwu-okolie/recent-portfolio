@@ -11,6 +11,10 @@
     z-index: 5;
     height: fit-content;
 }
+.dark{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
 .socials{
     display: flex;
     flex-direction: column;

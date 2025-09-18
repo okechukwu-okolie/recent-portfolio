@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import './header.css'
-import '../../../src/app.css'
 import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 
 import { BiSun } from 'react-icons/bi'
@@ -31,7 +30,7 @@ const Header = ({theme}) => {
               <li><a href="#contacts">#contacts</a></li>
             </ul> 
           </div>
-        {light ? <CiDark onClick={handleLight} size={25}/> :<BiSun onClick={handleLight} size={25}/>}
+        {light ? <CiDark onClick={handleLight} size={35} className='dark'/> :<BiSun onClick={handleLight} size={35}/>}
 
       </div>
     </div>
