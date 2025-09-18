@@ -3,18 +3,28 @@
     margin: auto;
     width: 70%;
     padding-top: 80px;
+    
+}
+.contact-form{
+   display: flex;
+   justify-content: space-between;
+   
+
+    
 }
 .form-and{
-    /* background-color: aqua; */
-    max-width: 400px;
+    width: 400px;
+
     input{
-        background: transparent;
+        background-color: var(--bg-color);
         max-width: 100%;
         padding: 5px;
-        outline: transparent;
+        outline: none;
         color: var(--text-color);
         width: 220px;
         margin-bottom: 10px;
+        border:0.1px solid var(--grey-color);
+        border-radius: 5px;
     }
 }
 .name-email{
@@ -30,4 +40,10 @@ gap: 10px;
     box-sizing: border-box;
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+.response{
+    color:red
+}
+.bad-response{
+    color:red
 }

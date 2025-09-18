@@ -18,11 +18,11 @@ const Header = ({theme}) => {
     theme(light)
 
   return (
-    <div class='header'>
-      <div class='socials'><hr class='vertical' /><BsGithub size={20}/><BsLinkedin size={20}/><BsWhatsapp size={20}/></div>
-      <div class='logo'>samuel okolie</div>
-      <div class='header-right'>
-          <div class='navigation'>
+    <div className='header'>
+      <div className='socials'><hr class='vertical' /><BsGithub size={20}/><BsLinkedin size={20}/><BsWhatsapp size={20}/></div>
+      <div className='logo'>samuel okolie</div>
+      <div className='header-right'>
+          <div className='navigation'>
             <ul>
               <li><a href="#home">#home</a></li>
               <li><a href="#works">#works</a></li>

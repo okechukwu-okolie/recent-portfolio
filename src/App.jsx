@@ -27,7 +27,6 @@ function App() {
 
   const theme =(data)=>{
     setIsDarkTheme(data)
-    console.log(data)
   }
 
   return (
@@ -41,7 +40,7 @@ function App() {
           <Hero isDarkTheme={isDarkTheme}/>
           <Works/>
           <About/>
-          <Contacts/>
+          <Contacts isDarkTheme={isDarkTheme}/>
      {/* </Routes> */}
      <Footer/>
     </>
