@@ -4,4 +4,10 @@
     width: 70%;
     padding-top: 80px;
 }
-
+.form-and{
+    input{
+        background: transparent;
+        max-width: 100%;
+        padding: 5px;
+    }
+}
