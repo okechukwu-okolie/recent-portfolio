@@ -3,6 +3,9 @@ import { Typewriter } from 'react-simple-typewriter';
 import './hero.css'
 import img1 from '/img1.png'
 import img2 from '/img2.png'
+import heroSkill1 from '/skill1.png'
+import heroSkill2 from '/skill2.png'
+
 
 const Hero = ({isDarkTheme}) => {
 
@@ -11,6 +14,8 @@ const Hero = ({isDarkTheme}) => {
   return (
     <div class='hero'>
       <div class='hero-content'>
+        {/* <img className='image-one' src={heroSkill1} alt="" />
+        <img className='image-two' src={heroSkill2} alt="" /> */}
         <h1>hello there, I am Samuel Okolie</h1>
         <h2>I am  <span style={{color:'red'}}>{" "} 
           
@@ -25,7 +30,7 @@ const Hero = ({isDarkTheme}) => {
             ]}
           loop={true}
           cursor
-          cursorStyle='|'
+          cursorStyle='#'
           typeSpeed={70}
           deleteSpeed={50}
           delaySpeed={1000}

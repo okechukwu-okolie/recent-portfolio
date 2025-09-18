@@ -33,12 +33,16 @@ function App() {
   return (
     <>
      <Header theme={theme}/>
-     <Routes>
-          <Route path='/' element={<Hero isDarkTheme={isDarkTheme}/>}/>
+     {/* <Routes> */}
+          {/* <Route path='/' element={<Hero isDarkTheme={isDarkTheme}/>}/>
           <Route path='/works' element={<Works/>}/>
           <Route path='/about-me' element={<About/>}/>
-          <Route path='/contacts' element={<Contacts/>}/>
-     </Routes>
+          <Route path='/contacts' element={<Contacts/>}/> */}
+          <Hero isDarkTheme={isDarkTheme}/>
+          <Works/>
+          <About/>
+          <Contacts/>
+     {/* </Routes> */}
      <Footer/>
     </>
   )

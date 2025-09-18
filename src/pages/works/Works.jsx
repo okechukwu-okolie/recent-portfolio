@@ -4,9 +4,11 @@ import ProjectCard from '../../components/projectCards/ProjectCard'
 import { BsArrowRight } from 'react-icons/bs'
 import skill1 from '/skill1.png'
 import Skill from '../../components/skills/Skill'
+import { BiCollapse } from 'react-icons/bi'
 
 const Works = () => {
   const [view, setView] = useState(true)
+  
 
   const openView = ()=>{
     setView(!view)
@@ -20,8 +22,8 @@ const Works = () => {
           <hr />
          </div>
 
-         <div onClick={openView}>
-          View All <BsArrowRight/>
+         <div className='view-all' onClick={openView} >
+          {view ? 'View-all-projects' : 'Collapse-view'}
          </div>
 
       </div>

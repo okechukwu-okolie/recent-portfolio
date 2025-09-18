@@ -1,7 +1,26 @@
 .about{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   height: 100vh;
     margin: auto;
     width: 70%;
+    position: relative;
+}
+
+
+.about-contents{
+    display: flex;
+    align-items: center;
+}
+
+.about-text p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.about-text img{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    z-index: 1;
+}
+.about-image img{
+    width: 300px;
 }
