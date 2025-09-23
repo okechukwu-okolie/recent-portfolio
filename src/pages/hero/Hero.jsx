@@ -35,7 +35,7 @@ const Hero = ({isDarkTheme}) => {
           </h2>
         
       </div>
-      <div class='hero-image'>{isDarkTheme ? <img src={img2} alt="hero-image" className='hero-img' style={{width:'380px'}}/>:<img src={img1} alt="hero-image" className='hero-img' />}   </div>
+      <div class='hero-image'>{isDarkTheme ? <img src={img2} alt="hero-image" className='hero-img' style={{width:'380px'}}/>:<img src={img1} alt="hero-image" className='hero-img' style={{width:'410px'}}/>}   </div>
     </div>
   )
 }
