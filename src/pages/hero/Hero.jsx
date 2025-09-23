@@ -2,7 +2,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
 import './hero.css'
 import img1 from '/img1.png'
-import img2 from '/img6.png'
+import img2 from '/img2.png'
 
 
 const Hero = ({isDarkTheme}) => {
@@ -35,7 +35,7 @@ const Hero = ({isDarkTheme}) => {
           </h2>
         
       </div>
-      <div class='hero-image'><img src={isDarkTheme ? img2 : img1} alt="hero-image" className='hero-img' /></div>
+      <div class='hero-image'>{isDarkTheme ? <img src={img2} alt="hero-image" className='hero-img' style={{width:'380px'}}/>:<img src={img1} alt="hero-image" className='hero-img' />}   </div>
     </div>
   )
 }
