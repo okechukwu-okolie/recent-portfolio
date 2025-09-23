@@ -2,7 +2,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
 import './hero.css'
 import img1 from '/img1.png'
-import img2 from '/img2.png'
+import img2 from '/img6.png'
 
 
 const Hero = ({isDarkTheme}) => {
