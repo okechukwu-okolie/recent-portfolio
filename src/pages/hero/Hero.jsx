@@ -3,8 +3,6 @@ import { Typewriter } from 'react-simple-typewriter';
 import './hero.css'
 import img1 from '/img1.png'
 import img2 from '/img2.png'
-import heroSkill1 from '/skill1.png'
-import heroSkill2 from '/skill2.png'
 
 
 const Hero = ({isDarkTheme}) => {
@@ -14,10 +12,8 @@ const Hero = ({isDarkTheme}) => {
   return (
     <div class='hero' id='home'>
       <div class='hero-content'>
-        {/* <img className='image-one' src={heroSkill1} alt="" />
-        <img className='image-two' src={heroSkill2} alt="" /> */}
-        <h1>hello there, I am Samuel Okolie</h1>
-        <h2>I am  <span style={{color:'red'}}>{" "} 
+        <h1 className='content-name'>hello there, I am <span className='content-name-span'>Samuel Okolie</span></h1>
+        <h2>I am  <span className='typewritter'>{" "} 
           
           <Typewriter
           words={[

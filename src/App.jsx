@@ -38,11 +38,11 @@ function App() {
           <Route path='/about-me' element={<About/>}/>
           <Route path='/contacts' element={<Contacts/>}/> */}
           <Hero isDarkTheme={isDarkTheme}/>
-          <Works/>
+          {/* <Works/>
           <About/>
-          <Contacts isDarkTheme={isDarkTheme}/>
+          <Contacts isDarkTheme={isDarkTheme}/>  */}
      {/* </Routes> */}
-     <Footer/>
+     {/* <Footer/> */}
     </>
   )
 }
