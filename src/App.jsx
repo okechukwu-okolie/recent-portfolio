@@ -38,9 +38,9 @@ function App() {
           <Route path='/about-me' element={<About/>}/>
           <Route path='/contacts' element={<Contacts/>}/> */}
           <Hero isDarkTheme={isDarkTheme}/>
-          {/* <Works/>
-          <About/>
-          <Contacts isDarkTheme={isDarkTheme}/>  */}
+          <Works/>
+          {/* <About/>
+          <Contacts isDarkTheme={isDarkTheme}/>   */}
      {/* </Routes> */}
      {/* <Footer/> */}
     </>

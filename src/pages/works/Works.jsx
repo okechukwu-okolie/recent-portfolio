@@ -23,7 +23,7 @@ const Works = () => {
          </div>
 
          <div className='view-all' onClick={openView} >
-          {view ? 'View-all-projects' : 'Collapse-view'}
+          {view ? 'Click to view all' : 'Click to collapse'}
          </div>
 
       </div>
@@ -52,7 +52,7 @@ const Works = () => {
       </div>
 
       <div className='work-skill'>
-        <div><img src={skill1} alt="" /></div>
+        <div><img src={skill1} alt="" className='work-skill-image'/></div>
         <div className='work-skill-component'>
           <Skill/>
           <Skill/>
