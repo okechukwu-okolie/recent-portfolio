@@ -54,10 +54,10 @@ const Works = () => {
       <div className='work-skill'>
         <div><img src={skill1} alt="" className='work-skill-image'/></div>
         <div className='work-skill-component'>
-          <Skill/>
-          <Skill/>
-          <Skill/>
-          <Skill/>
+          <Skill title='UI Component Libraries' skill1='shadcn/UI' skill2='antdesign' skill3='daisyUI' skill4='semantic/UI' skill5='' skill6='' skill7='' skill8='' />
+          <Skill title='Programming Languages' skill1='Javascript' skill2='Typescript' skill3='Python' skill4='HTML' skill5='CSS' skill6='' skill7='' skill8='' />
+          <Skill title='Frameworks and Libraries' skill1='ReactJS' skill2='NextJS' skill3='React Native' skill4='Tailwind' skill5='' skill6='' skill7='' skill8='' />
+          <Skill title='UI Component Libraries' skill1='' skill2='' skill3='' skill4='' skill5='' skill6='' skill7='' skill8='' />
           {/* <Skill/>
           <Skill/>
           <Skill/> */}
