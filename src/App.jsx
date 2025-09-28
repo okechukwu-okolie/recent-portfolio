@@ -39,8 +39,8 @@ function App() {
           <Route path='/contacts' element={<Contacts/>}/> */}
           <Hero isDarkTheme={isDarkTheme}/>
           <Works/>
-          {/* <About/>
-          <Contacts isDarkTheme={isDarkTheme}/>   */}
+          <About/>
+          <Contacts isDarkTheme={isDarkTheme}/>  
      {/* </Routes> */}
      {/* <Footer/> */}
     </>
