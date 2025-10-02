@@ -60,10 +60,31 @@
 .mobile {
     display: none;
 }
+@media (max-width:840px) {
+.header{
+    max-width: 90%;
+}
+  .socials{
+        left: 10px;
+        top: 40%;
+        gap: 20px;
+    }
+    .vertical{
+        height: 0;
+    }
+    
+}
 
 @media (max-width:440px) {
     .hamburger{
         display: block;
+        
+    }
+    .non-mobile{
+        display: none;
+    }
+    .hamburger-remove{
+        display: none;
     }
     .header{
         max-width: 90%;
@@ -96,19 +117,4 @@
         gap: 30px;
         color: red;
     }
-}
-
-@media (max-width:840px) {
-.header{
-    max-width: 90%;
-}
-  .socials{
-        left: 10px;
-        top: 40%;
-        gap: 20px;
-    }
-    .vertical{
-        height: 0;
-    }
-    
 }

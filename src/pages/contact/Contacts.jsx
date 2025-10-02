@@ -147,9 +147,9 @@ const Contacts = ({isDarkTheme}) => {
         )}
       </div>
 
-      <div>
+      {/* <div>
         <div className=''><hr class='' /><BsGithub size={20}/><BsLinkedin size={20}/><BsWhatsapp size={20}/></div>
-      </div>
+      </div> */}
     </div>
     </div>
   )

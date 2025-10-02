@@ -30,3 +30,24 @@
 .about-image img{
     width: 300px;
 }
+@media (max-width:840px){
+
+}
+@media(max-width:440px){
+    .about-image{
+        position: absolute;
+        top: 150px;
+        opacity: .15;
+
+        img{
+            width: 280px;
+            
+        }
+    }
+    .about-text img{
+        display: none;
+    }
+    .about-text p{
+        text-align: justify;
+    }
+}

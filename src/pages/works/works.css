@@ -36,7 +36,7 @@ margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 50vh;
     overflow: hidden;
 }
@@ -44,7 +44,7 @@ margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .work-skill{
@@ -64,4 +64,24 @@ margin-top: 50px;
 .view-all{
     cursor: pointer;
     font-size: 20px;
+}
+@media  (max-width:840px){
+
+}
+@media(max-width:440px){
+    .project-text hr{
+        width: 140px;
+    }
+    .skill-image{
+        display: none;
+    }
+    .work-skill-component{
+        justify-content: center;
+    }
+    .works-projects{
+        flex-direction: column;
+    }
+    .works-cards{
+        height: 45vh;
+    }
 }

@@ -27,6 +27,7 @@ const Works = () => {
          </div>
 
       </div>
+      
       <div className={view ?'works-cards':'works-cards-open'}>
         <ProjectCard/>
         <ProjectCard/>
@@ -50,7 +51,7 @@ const Works = () => {
       </div>
 
       <div className='work-skill'>
-        <div><img src={skill1} alt="" /></div>
+        <div className='skill-image'><img src={skill1} alt="" /></div>
         <div className='work-skill-component'>
           <Skill title='UI Component Libraries' skill1='.shadcnUI' skill2='.antDesignUI' skill3='.daisyUI' skill4='.semanticUI' skill5='' skill6='' skill7='' skill8='' />
           <Skill title='Programming Languages' skill1='.Javascript' skill2='.Typescript' skill3='.Python' skill4='.HTML' skill5='.CSS' skill6='' skill7='' skill8='' />
