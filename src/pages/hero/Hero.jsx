@@ -12,10 +12,8 @@ const Hero = ({isDarkTheme}) => {
   return (
     <div class='hero' id='home'>
       <div class='hero-content'>
-        {/* <img className='image-one' src={heroSkill1} alt="" />
-        <img className='image-two' src={heroSkill2} alt="" /> */}
-        <h1>hello there, I am Samuel Okolie</h1>
-        <h2>I am  <span style={{color:'red'}}>{" "} 
+        <h1 className='content-name'>hello there, I am <span className='content-name-span'>Samuel Okolie</span></h1>
+        <h2>I am  <span className='typewritter'>{" "} 
           
           <Typewriter
           words={[
@@ -37,7 +35,7 @@ const Hero = ({isDarkTheme}) => {
           </h2>
         
       </div>
-      <div class='hero-image'><img src={isDarkTheme ? img2 : img1} alt="hero-image" className='hero-img' /></div>
+      <div class='hero-image'>{isDarkTheme ? <img src={img2} alt="hero-image" className='hero-img' style={{width:'380px'}}/>:<img src={img1} alt="hero-image" className='hero-img' style={{width:'410px'}}/>}   </div>
     </div>
   )
 }

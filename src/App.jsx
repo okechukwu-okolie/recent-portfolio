@@ -42,16 +42,6 @@ function App() {
 
           <Footer/>
       </Router>
-     {/* <Routes> */}
-          {/* <Route path='/' element={<Hero isDarkTheme={isDarkTheme}/>}/>
-          <Route path='/works' element={<Works/>}/>
-          <Route path='/about-me' element={<About/>}/>
-          <Route path='/contacts' element={<Contacts/>}/> */}
-          {/* <Hero isDarkTheme={isDarkTheme}/>
-          <Works/>
-          <About/>
-          <Contacts isDarkTheme={isDarkTheme}/> */}
-     {/* </Routes> */}
     </div>
   )
 }

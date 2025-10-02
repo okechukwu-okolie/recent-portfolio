@@ -23,7 +23,7 @@ const Works = () => {
          </div>
 
          <div className='view-all' onClick={openView} >
-          {view ? 'View-all-projects' : 'Collapse-view'}
+          {view ? 'Click to view all' : 'Click to collapse'}
          </div>
 
       </div>
@@ -46,21 +46,19 @@ const Works = () => {
           <hr className='skills-line'/>
          </div>
 
-         {/* <div>
-          View All <BsArrowRight/>
-         </div> */}
+         
       </div>
 
       <div className='work-skill'>
-        <div><img src={skill1} alt="" /></div>
+        <div><img src={skill1} alt="" className='work-skill-image'/></div>
         <div className='work-skill-component'>
-          <Skill/>
-          <Skill/>
-          <Skill/>
-          <Skill/>
+          <Skill title='UI Component Libraries' skill1='.shadcnUI' skill2='.antDesignUI' skill3='.daisyUI' skill4='.semanticUI' skill5='' skill6='' skill7='' skill8='' />
+          <Skill title='Programming Languages' skill1='.Javascript' skill2='.Typescript' skill3='.Python' skill4='.HTML' skill5='.CSS' skill6='' skill7='' skill8='' />
+          <Skill title='Frameworks and Libraries' skill1='.ReactJS' skill2='.NextJS' skill3='.React Native' skill4='.Tailwind' skill5='' skill6='' skill7='' skill8='' />
+          <Skill title='Database Management System' skill1='.MongoDB' skill2='.SQL' skill3='.MySQL' skill4='' skill5='' skill6='' skill7='' skill8='' />
+          <Skill title='Animation Libraries' skill1='.Framer Motion     ' skill2='.GSAP' skill3='' skill4='' skill5='' skill6='' skill7='' skill8=''/>
           {/* <Skill/>
-          <Skill/>
-          <Skill/> */}
+          <Skill/>  */}
         </div>
       </div>
       
