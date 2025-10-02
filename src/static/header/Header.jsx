@@ -24,10 +24,10 @@ const Header = ({theme}) => {
       <div className='header-right'>
           <div className='navigation'>
             <ul>
-              <li><a href="#home">#home</a></li>
-              <li><a href="#works">#works</a></li>
-              <li><a href="#about">#about-me</a></li>
-              <li><a href="#contacts">#contacts</a></li>
+              <Link to={'/'}><li>#home</li></Link>
+              <Link to={'/works'}><li>#works</li></Link>
+              <Link to={'/about'}><li>#about-me</li></Link>
+              <Link to={'/contact'}><li>#contacts</li></Link>
             </ul> 
           </div>
         {light ? <CiDark onClick={handleLight} size={35} className='dark'/> :<BiSun onClick={handleLight} size={35}/>}
