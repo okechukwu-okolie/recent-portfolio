@@ -10,8 +10,8 @@ const Hero = ({isDarkTheme}) => {
 
   
   return (
-    <div class='hero' id='home'>
-      <div class='hero-content'>
+    <div className='hero' id='home'>
+      <div className='hero-content'>
         <h1 className='content-name'>hello there, I am <span className='content-name-span'>Samuel Okolie</span></h1>
         <h2>I am  <span className='typewritter'>{" "} 
           
@@ -35,7 +35,7 @@ const Hero = ({isDarkTheme}) => {
           </h2>
         
       </div>
-      <div class='hero-image'>{isDarkTheme ? <img src={img2} alt="hero-image" className='hero-img' style={{width:'380px'}}/>:<img src={img1} alt="hero-image" className='hero-img' style={{width:'410px'}}/>}   </div>
+      <div className='hero-image'>{isDarkTheme ? <img src={img2} alt="hero-image" className='hero-img' style={{width:'380px'}}/>:<img src={img1} alt="hero-image" className='hero-img' style={{width:'410px'}}/>}   </div>
     </div>
   )
 }

@@ -5,9 +5,11 @@ import { BsArrowRight } from 'react-icons/bs'
 import skill1 from '/skill1.png'
 import Skill from '../../components/skills/Skill'
 import { BiCollapse } from 'react-icons/bi'
+import { sampleWorks } from './works'
 
 const Works = () => {
   const [view, setView] = useState(true)
+  console.log(sampleWorks)
   
 
   const openView = ()=>{
@@ -29,14 +31,13 @@ const Works = () => {
       </div>
       
       <div className={view ?'works-cards':'works-cards-open'}>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
+       {sampleWorks.map((samplework)=>  <ProjectCard key={samplework.id} 
+                                                image={samplework.image}
+                                                title={samplework.title}
+                                                liveURL ={samplework.liveURL}
+                                                gitURL = {samplework.gitURL}
+                                                projectTools = {samplework.projectTools}/>)}
+      
       </div>
 
 

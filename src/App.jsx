@@ -4,7 +4,7 @@ import {Router, Routes, Route} from 'react-router-dom'
 import Hero from './pages/hero/Hero'
 import Footer from './static/footer/Footer'
 import Header from './static/header/Header'
-import Works from './pages/works/Works'
+import Works from './pages/works/Works.jsx'
 import About from './pages/about/About'
 import Contacts from './pages/contact/Contacts'
 

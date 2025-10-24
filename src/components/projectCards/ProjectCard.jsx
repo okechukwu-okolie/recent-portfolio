@@ -2,17 +2,17 @@ import React from 'react'
 import img1 from '/project2.png'
 import './projectCard.css'
 
-const ProjectCard = () => {
+const ProjectCard = ({title,image,liveURL,gitURL,projectTools}) => {
   return (
     <div className='project-card'>
-      <div className='project-image'><img src={img1} alt="" /></div>
-      <div className='project-tools'>HTML CSS React </div>
+      <div className='project-image'><img src={image} alt="" /></div>
+      <div className='project-tools'>{projectTools} </div>
       <div className='project-details'>
         <p>
-          To-do Scheduler
+          {title}
         </p>
-        <button>Visit </button>
-        <button>visit Git</button>
+        <a href={liveURL} ><button>Visit Page </button></a>
+        <a href={gitURL}><button>Visit Git</button></a>
       </div>
     </div>
   )

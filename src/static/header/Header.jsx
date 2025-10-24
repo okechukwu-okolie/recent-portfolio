@@ -26,7 +26,7 @@ const Header = ({theme}) => {
 
   return (
     <div className='header'>
-      <div className='socials'><hr class='vertical' /><BsGithub size={20}/><BsLinkedin size={20}/><BsWhatsapp size={20}/></div>
+      <div className='socials'><hr className='vertical' /><BsGithub size={20}/><BsLinkedin size={20}/><BsWhatsapp size={20}/></div>
       <div className='logo'>samuel okolie</div>
       <div className='header-right'>
           <div className='navigation'>
